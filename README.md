@@ -26,7 +26,7 @@ The project consists of the following files and directories:
 
 - `models/`: This directory contains the saved prediction model and tokenizer model.
 
-- `next_word_recommendation.py`: Python script with the main code for training the LSTM model and generating next word recommendations.
+- `Nex_Word_prediction.ipynb`: Python script with the main code for training the LSTM model and generating next word recommendations.
 
 - `requirements.txt`: Lists all the required libraries and dependencies to run the project.
 
