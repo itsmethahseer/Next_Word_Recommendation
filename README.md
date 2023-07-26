@@ -1,4 +1,61 @@
-# Next_Word_Recommendation
-I used a text document from Google for train my model. It is very time-consuming to train the model. Since I didn't use the concept of transfer learning. Used natural language processing techniques in this project. Created a new function for predicting the new upcoming sentence. And I saved my prediction model as well as tokenizer model using Pickle, JobLib, etc. You guys can see my notebooks and just understand the concepts.Actually, it is a LSTM neural network project; for training, I used LSTM, dense Embedded neural networks in deep learning.so just enjoy guys and explore your data science life.
+Sure, I can help you convert the given project summary into a standard format for a README file. Here's the updated content with proper formatting:
 
-Project Summary by Muhammed Thahseer CK, a self-taught data scientist
+# Next_Word_Recommendation
+
+This project focuses on building a Next Word Recommendation system using Natural Language Processing techniques. The goal is to predict the upcoming words in a given text using LSTM (Long Short-Term Memory) neural networks. The training data for the model is a text document obtained from Google.
+
+## Project Overview
+
+The project primarily involves the following steps:
+
+1. Data Preparation: A text document from Google is used to train the LSTM model. The data is preprocessed to prepare it for training.
+
+2. Model Training: The LSTM and dense Embedded neural networks are implemented for training the Next Word Recommendation system. The training process is time-consuming due to the complexity of the LSTM model.
+
+3. Next Sentence Prediction: A new function is created to predict the next upcoming sentence based on the trained model.
+
+4. Model Persistence: The trained prediction model and tokenizer model are saved using libraries like Pickle and JobLib.
+
+## Project Structure
+
+The project consists of the following files and directories:
+
+- `data/`: Contains the training data and other relevant datasets (if any).
+
+- `notebooks/`: Jupyter notebooks are stored here, showcasing the step-by-step process of the project. The notebooks cover data preprocessing, model training, and evaluation.
+
+- `models/`: This directory contains the saved prediction model and tokenizer model.
+
+- `next_word_recommendation.py`: Python script with the main code for training the LSTM model and generating next word recommendations.
+
+- `requirements.txt`: Lists all the required libraries and dependencies to run the project.
+
+## Usage
+
+To use the Next Word Recommendation system, follow these steps:
+
+1. Clone the repository to your local machine.
+
+2. Install the required libraries listed in `requirements.txt`.
+
+3. Run the `next_word_recommendation.py` script to train the LSTM model.
+
+4. Once the model is trained, you can use the provided function to get predictions for upcoming words in a given text.
+
+## Project Author
+
+This project was developed by Muhammed Thahseer CK, a self-taught data scientist passionate about exploring the field of data science.
+
+## Acknowledgments
+
+Special thanks to the data science community for their valuable resources and tutorials that contributed to the success of this project.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Conclusion
+
+Enjoy exploring the fascinating world of data science through this Next Word Recommendation project. Feel free to go through the notebooks and gain insights into the concepts used in the development process.
+
+Happy learning and data science exploration!
