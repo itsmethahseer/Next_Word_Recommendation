@@ -28,7 +28,7 @@ The project consists of the following files and directories:
 
 - `Nex_Word_prediction.ipynb`: Python script with the main code for training the LSTM model and generating next word recommendations.
 
-- `requirements.txt`: Lists all the required libraries and dependencies to run the project.
+
 
 ## Usage
 
@@ -36,11 +36,9 @@ To use the Next Word Recommendation system, follow these steps:
 
 1. Clone the repository to your local machine.
 
-2. Install the required libraries listed in `requirements.txt`.
+2. Run the `Nex_Word_prediction.ipynb` script to train the LSTM model.
 
-3. Run the `next_word_recommendation.py` script to train the LSTM model.
-
-4. Once the model is trained, you can use the provided function to get predictions for upcoming words in a given text.
+3. Once the model is trained, you can use the provided function to get predictions for upcoming words in a given text.
 
 ## Project Author
 
